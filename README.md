@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+🚀 NextJS, FirebaseAuth & Tailwindcss with Typescript
+
+📝 Written with TypeScript
+
+🦚 with Tailwindcss layout
+
 ## Getting Started
 
 First, run the development server:
@@ -10,25 +16,38 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+rename .env.template to .env and update it with
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+#----------EMAIL
+SMTP_EMAIL=
+SMTP_PASSWORD=
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+#----------PRIVATE_KEYS
+PUBLIC_URL=http://localhost:3000
+SECRET_KEY=
+DATABASE_URL=
+NEXTAUTH_URL=http://localhost:3000
+MS_GRAPH_CLIENT_ID=
+MS_GRAPH_CLIENT_SECRET=
+GOOGLE_API_CREDENTIALS=
+AWS_ACCESS_ID=
+AWS_SECRET_KEY=
+LINKEDIN_CLIENT_ID=
+LINKEDIN_CLIENT_SECRET=
+FACEBOOK_CLIENT_ID=
+FACEBOOK_CLIENT_SECRET=
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+NEXT_PUBLIC_STRIPE_CLIENT_ID=
+STRIPE_SERVER_ID=
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+#twitter app not exist
+TWITTER_CLIENT_ID=
+TWITTER_CLIENT_SECRET=
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+GOOGLE_OAUTH_CLIENT_ID=
+GOOGLE_OAUTH_CLIENT_SECRET=
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Enjoy! 🤘
